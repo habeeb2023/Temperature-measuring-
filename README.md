@@ -1,5 +1,4 @@
-# Temperature-measuring
-# Raspberry Pi Pico Temperature Monitor
+# Raspberry Pi Pico Temperature Monitor Project
 
 This project demonstrates an environmental monitoring system built using a **Raspberry Pi Pico**, **DHT22 sensor**, **KY-011 two-color LED**, and **KY-006 piezo buzzer**. The system collects temperature and humidity data from the DHT22 sensor and provides visual and auditory feedback based on specific environmental conditions.
 
