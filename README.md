@@ -35,6 +35,28 @@ Below is the wiring configuration for connecting the components to the Raspberry
 | Ground           | GND             | Common ground for all components              |
 | Power (3.3V)     | 3V3             | Power supply for DHT22 and KY modules          |
 
+## System Functionality
+
+This environmental monitoring system reads temperature data from the **DHT22 sensor** and uses the **KY-011 LED module** and **KY-006 piezo buzzer** to provide feedback based on the detected temperature.
+
+### How It Works
+- **Normal Temperature Range (15°C - 30°C)**:  
+  - The **KY-011 LED** will display a **green light** to indicate that the temperature is within a comfortable, normal range.
+  - The **KY-006 piezo buzzer** remains silent.
+
+- **High Temperature (Above 30°C)**:  
+  - When the temperature exceeds **30°C**, the **KY-011 LED** will turn **red** as a visual warning.
+  - Simultaneously, the **KY-006 piezo buzzer** will emit a **high-pitch sound** to alert users of the high temperature.
+
+- **Low Temperature (Below 15°C)**:  
+  - If the temperature drops below **15°C**, the **KY-011 LED** will turn **red** again to indicate the cold condition.
+  - The **KY-006 piezo buzzer** will emit a **low-frequency sound** to signal the low temperature.
+
+> **Note**: These thresholds can be modified in the code if different temperature ranges are desired.
+
+This design provides both a visual and auditory warning for temperatures outside the normal range, making it ideal for environments where quick response to temperature changes is critical.
+
+
 ## Installation
 1. **Clone the Repository**
    ```bash
