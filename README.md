@@ -57,8 +57,3 @@ This environmental monitoring system reads temperature data from the **DHT22 sen
 This design provides both a visual and auditory warning for temperatures outside the normal range, making it ideal for environments where quick response to temperature changes is critical.
 
 
-## Installation
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/RaspberryPiPico-EnvMonitor.git
-   cd RaspberryPiPico-EnvMonitor
