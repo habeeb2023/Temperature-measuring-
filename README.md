@@ -28,10 +28,10 @@ Below is the wiring configuration for connecting the components to the Raspberry
 
 | Component        | Pico Pin (GPIO) | Notes                           |
 |------------------|-----------------|---------------------------------|
-| DHT22 Data Pin   | GP15            | Data pin for temperature and humidity readings |
-| KY-011 LED Red   | GP16            | Red channel of the LED (high temperature)      |
-| KY-011 LED Green | GP17            | Green channel of the LED (normal temperature)  |
-| KY-006 Buzzer    | GP18            | Emits sound for alert notification             |
+| DHT22 Data Pin   | GP16            | Data pin for temperature and humidity readings |
+| KY-011 LED Red   | GP15            | Red channel of the LED (high temperature)      |
+| KY-011 LED Green | GP14            | Green channel of the LED (normal temperature)  |
+| KY-006 Buzzer    | GP17            | Emits sound for alert notification             |
 | Ground           | GND             | Common ground for all components              |
 | Power (3.3V)     | 3V3             | Power supply for DHT22 and KY modules          |
 
